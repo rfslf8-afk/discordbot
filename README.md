@@ -33,7 +33,7 @@ class DiscordBot(discord.Client):
             await asyncio.sleep(delay)
     
 
-# Создание и запуск ботов
+# Создание и запуск ботов для котов
 bots = []
 for token in TOKENS:
     bot = DiscordBot(token)
